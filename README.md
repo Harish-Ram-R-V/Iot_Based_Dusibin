@@ -33,67 +33,43 @@ Working Explanation:
         Lid remains closed.
 
 🚨 Smart Alarm System Functionality:
- Components Used:
-    
+ Components Used
     LM35/Analog Temp Sensor (connected to A1)
-    
     Gas Sensor (connected to A0)
-    
     LED (overheat indicator)
-    
     Buzzer (gas alert)
-    
     Arduino Uno
-    
-    Working Explanation:
-    
+
+Working Explanation:
     The system reads temperature from A1 and gas levels from A0.
-    
     If temperature exceeds 80°C:
-    
-    LED on pin 13 turns ON to alert overheating.
-    
+        LED on pin 13 turns ON to alert overheating.
     If gas levels exceed threshold (100):
-    
-    Buzzer on pin 7 is activated to signal foul smell or gas leak.
+        Buzzer on pin 7 is activated to signal foul smell or gas leak.
 
 🔄 Future Improvements & Blynk IoT Integration:
   🔗 Planned Additions:
     
     Connect temperature, gas, and garbage level data to the Blynk IoT app using WiFi (via ESP8266 or NodeMCU).
-    
     Mobile Notifications:
-    
-    Real-time notification when the bin is full.
-    
-    Alerts when temperature or gas exceeds safe levels.
-    
+        Real-time notification when the bin is full.
+        Alerts when temperature or gas exceeds safe levels.
     Smart Messaging:
-    
-    When garbage smell exceeds a threshold, an automated message will be sent to the garbage collection team.
-    
+        When garbage smell exceeds a threshold, an automated message will be sent to the garbage collection team.
     Data Logging:
-    
-    Track bin usage, environmental stats via Blynk dashboards.
+        Track bin usage, environmental stats via Blynk dashboards.
 
 📱 Mobile Dashboard Example (via Blynk):
-    
     Gauge Widget for garbage level
-    
     Temperature display
-    
     Gas level display
-    
     Switches or automation rules for alerts
 
 💡 Further Enhancements:
     Add weight sensor to measure garbage weight.
-    
     Include camera module for remote bin condition check.
-    
     Integrate voice control or gesture-based lid opening.
+    Solar-powered system for energy efficiency
     
-    Solar-powered system for energy efficiency.
-
 ## see my tinkercad circuit simulation here: 
     https://www.tinkercad.com/things/ciTeTpKyNeC-smart-dustbin?sharecode=71OB5XNtMvTUXvO3SESpw54_bzQcyq7cuv4gtJYwEWs
